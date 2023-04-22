@@ -1,0 +1,10 @@
+package factory_method.problema5.clase;
+
+public class FactoryAutobuz implements Factory {
+
+	@Override
+	public MijlocTransport creareMijlocTransport(String numarInmatriculare, int numarTraseu) {
+		return new Autobuz(numarInmatriculare, numarTraseu);
+	}
+
+}
