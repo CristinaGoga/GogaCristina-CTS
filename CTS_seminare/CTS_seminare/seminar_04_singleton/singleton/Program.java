@@ -16,6 +16,7 @@ public class Program {
 		firma1.setNrAngajati(10);
 		firma2.setNrAngajati(15);
 		firma3.setNrAngajati(20);
+		
 		System.out.println(firma1.toString());
 		System.out.println(firma2.toString());
 		System.out.println(firma3.toString());

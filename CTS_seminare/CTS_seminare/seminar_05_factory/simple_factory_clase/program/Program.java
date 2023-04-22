@@ -16,7 +16,7 @@ public class Program {
         PersonalSpital brancardier = factory.createInstance(TipPersonalSpital.BRANCARDIER, "Brancus Daniel");
 
         asistent.descriere();
-        medic.descriere();;
+        medic.descriere();
         brancardier.descriere();
         System.out.println("\n");
 
