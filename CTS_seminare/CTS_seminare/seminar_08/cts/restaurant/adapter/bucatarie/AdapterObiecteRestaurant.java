@@ -1,0 +1,16 @@
+package cts.restaurant.adapter.bucatarie;
+
+import cts.restaurant.adapter.bar.ISoftBar;
+
+public class AdapterObiecteRestaurant implements ISoftRestaurant {
+    private ISoftBar softBar;
+
+    public AdapterObiecteRestaurant(ISoftBar softBar) {
+        this.softBar = softBar;
+    }
+
+    @Override
+    public void printeazaNota(double totalSuma) {
+    this.softBar.printeazaNotaBauturi(totalSuma);
+    }
+}
