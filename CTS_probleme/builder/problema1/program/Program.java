@@ -1,20 +1,12 @@
-package builder.problema1.program;
+package test2.problema1.program;
 
-import builder.problema1.clase.Client;
-import builder.problema1.clase.ClientBuilder;
+import test2.problema1.clase.GamingSistemBuilder;
+import test2.problema1.clase.GamingSystem;
 
 public class Program {
-	public static void main(String[] args) {
-		ClientBuilder clientBuilder = new ClientBuilder("Cristina");
-		Client client = clientBuilder.setLocLaGeam(true).setMasaDecorata(true).build();
-		System.out.println(client.toString());
-		
-		
-		Client clientNou =new ClientBuilder("Ana").setLocLaGeam(true).build();		
-		System.out.println(clientNou.toString());
-		
-		
-		 
-	}
-
+public static void main(String[] args) {
+	GamingSistemBuilder gamingSistemBuilder= new GamingSistemBuilder("nume", 1,2);
+	//GamingSystem gamingSystem = gamingSistemBuilder.setAreCamera(true).printConfiguration();
+	
+}
 }
