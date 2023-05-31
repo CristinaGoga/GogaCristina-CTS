@@ -1,7 +1,6 @@
-package seminar_12.teste;
+import teste.MyException;
 
 public class Persoana implements IPersoana {
-
 	private String nume;
 	public String CNP;
 	
@@ -74,5 +73,4 @@ public class Persoana implements IPersoana {
 		
 		return rezultat;
 	}
-
 }

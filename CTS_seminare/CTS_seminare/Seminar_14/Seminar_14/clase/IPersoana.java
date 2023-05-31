@@ -1,6 +1,7 @@
-package seminar_12.teste;
+package Seminar_14.clase;
 
 public interface IPersoana {
+	
 	public String getSex();
 	
 	public int getVarsta();
